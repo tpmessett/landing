@@ -1,0 +1,18 @@
+.footer {
+  background-color: #2c2b2b;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.footer .fab {
+  font-size: 32px;
+  color: #1cdd87;
+}
+
+.footer p {
+  color: grey;
+}
+
+.footer i {
+  color: red;
+}

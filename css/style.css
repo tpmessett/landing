@@ -1,0 +1,52 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+@import url("components/cards.css");
+@import url("components/footer.css");
+@import url("components/hero-banner.css");
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Custom design below! */
+
+.container {
+  width: 1000px;
+  margin: 50px auto;
+  margin-top: 35px;
+}
+
+.button {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  padding: 15px 27px;
+  border-radius: 50px;
+  font-weight: bold;
+  background: #6AD58B;
+  transition: background 0.3s
+}
+
+.button:hover {
+  background: #3ac162;
+}
